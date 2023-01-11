@@ -8,3 +8,162 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    background-color: #540B51;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+}
+
+
+
+.nav-bar-ul > li{
+    display: flex;
+    align-items: flex-start;
+    display: none;
+}
+
+.nav-bar-left > img{
+    width: 4em;
+}
+
+.nav-bar-right > button{
+    background-color: #540B51;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #540B51;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h1{
+    color: white;
+}
+
+.text{
+    color: white;
+}
+
+.text > span{
+    color: tomato;
+}
+
+.registration > button{
+
+}
+
+.registration > button > img{
+    width: 2em;
+    background-color: white;
+    
+}
+
+
+.header-right > img {
+    width: 70%;
+}
+
+.popularity{
+    display: flex;
+    flex-direction: column;
+    background-color: #F3EAE2;
+
+}
+
+.popularity > p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+
+}
+
+.companies-logo > img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 10%;
+    margin: 0 auto;
+}
+
+.connection{
+    display: flex;
+    flex-direction: column;
+    background-color:  #F3EAE2;
+}
+
+.connectedness-mobil{
+    width: 40%;
+    border-radius: 30%;
+}
+
+.team > h2{
+    display: flex;
+    justify-content: center;
+    font-style: bold;
+}
+
+.team > p{
+    text-align: center;
+}
+
+.enviroment{
+    display: flex;
+    flex-direction: column;
+    background-color:  #F3EAE2;
+}
+
+.work-place > h2{
+    display: flex;
+    justify-content: center;
+    font-style: bold;
+}
+
+.work-place > p{
+    text-align: center;
+}
+
+.flexibility{
+    width: 40%;
+    border-radius: 30%;
+    float: right;
+}
+
+.speed-mobile{
+    width: 40%;
+    border-radius: 30%;
+    float: left;
+}
+
+.speed{
+    display: flex;
+    flex-direction: column;
+    background-color:  #F3EAE2;
+}
+
+.work-speed > h2{
+    display: flex;
+    justify-content: center;
+    font-style: bold;
+}
+
+.work-speed > p{
+    text-align: center;
+}
+
+
